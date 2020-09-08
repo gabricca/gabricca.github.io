@@ -14,3 +14,10 @@ text-align: center;
   text-align: center;
 
 }
+#band-images img {
+  clear:both;
+  margin: 2vmin;
+  height: 28vmin;
+  border-radius: 3vmin;
+
+}
