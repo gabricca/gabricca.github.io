@@ -1,0 +1,255 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(pattern.jpg);
+}
+.navigation{
+    background-color: #f3f3f3;
+    text-align: center;
+    font: 4vh, bold;
+    width: 100vw;
+    height: 5vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    vertical-align: top;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+.header{
+    height: 30vh;
+    display: grid;
+    text-align: center;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding-top: 2vh;
+    font-size: 5vh;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+
+}
+#title{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-top: 0%;
+    align-self: center;
+    font-size: 6vh;
+    max-width: 35vw;
+    margin-bottom: 0vh;
+    padding: 0%;    
+    color: rgb(67, 112, 112);
+}
+#profImg{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    max-width: 20vw;
+    max-height: 20vh;
+    justify-self: center;
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding: 0%;
+    border-radius: 100px;
+}
+.content{
+    height: 90vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+#text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vh;
+    align-self: center;
+    padding-top: 3vh;
+    text-align: center;
+    color: rgb(47, 78, 78);
+    width: 55vw;
+    height: 60vh;
+    text-justify: auto;
+}
+.navLink{
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    background-color: #f3f3f3;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font: 4vh, bold;
+    width: 100vw;
+    height: 5vh;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    vertical-align: bottom;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.footerLink{
+    color: indianred;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.CV{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+    height: 90vh;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#name{
+    color: rgb(67, 112, 112);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+
+}
+.heading{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bolder;
+    box-sizing: border-box;
+    margin-bottom: .5%;
+    margin-top: 0%;
+    padding: 0%;
+
+}
+.subheading{
+    color: rgb(36, 122, 122);
+    text-align: center;
+    font-size: 2.5vh;
+    box-sizing: border-box;
+    margin-top: .5%;
+    margin-bottom: 0%;
+    padding: 0%;
+
+}
+.entry{
+    text-align: center;
+    font-size: 2vh;    
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+ul{
+    text-align: center;
+    list-style-position: inside;
+    margin: 0%;
+}
+.projectTable{
+    display: grid;
+    padding-top: 3vh;
+    margin: auto;
+    align-items: center;
+    height: 87vh;
+    width: 65vw;
+    row-gap: 5vh;
+
+}
+.projectLogo{
+    max-height: 20vh;
+    width: auto;
+    border-radius: 100px;
+}
+#fansite{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin: 0%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+}
+#designMock{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin: 0%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+}
+#replGame{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin: 0%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+}
+#tictactoe{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    margin: 0%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    max-width: 50vw;
+    align-self: center;
+    margin: auto;
+    font-size: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 78, 78);
+}
